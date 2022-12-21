@@ -20,5 +20,22 @@ namespace exercise_5
             balqis = null;
             maharani = null;
         }
+        public void Insert()
+        {
+            string add;
+            Node newnode = new Node();
+            Console.WriteLine("Masukkan Element :");
+            add = Console.ReadLine();
+            newnode.name = add;
+            newnode.next = balqis;
+            if(maharani == null )
+            {
+                balqis= newnode;
+                maharani = newnode;
+                return;
+            }
+            maharani.next = newnode;
+            maharani = newnode;
+        }
     }
 }
