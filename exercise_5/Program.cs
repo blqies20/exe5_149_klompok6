@@ -70,6 +70,17 @@ namespace exercise_5
             {
                 try
                 {
+                    Console.WriteLine("\nMenu");
+                    Console.WriteLine("1. Menambah Data ke dalam List");
+                    Console.WriteLine("2. Menghapus Data dari dalam Liat");
+                    Console.WriteLine("3. Melihat semua data di dalam List");
+                    Console.WriteLine("4. Exit");
+                    Console.Write("Masukkan pilihan anda (1-4): ");
+                    ch = Convert.ToChar(Console.ReadLine());
+                    switch (ch)
+                    {
+
+                    }
 
                 }
             }
