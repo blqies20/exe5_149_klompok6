@@ -27,7 +27,7 @@ namespace exercise_5
             Console.WriteLine("Masukkan Element :");
             add = Console.ReadLine();
             newnode.name = add;
-            newnode.next = balqis;
+            newnode.next = null;
             if(maharani == null )
             {
                 balqis= newnode;
