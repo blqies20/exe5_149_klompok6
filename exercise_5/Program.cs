@@ -50,8 +50,11 @@ namespace exercise_5
         }
         public void Display()
         {
-            Console.WriteLine("\nQueue is Empty");
-            return;
+            if(balqis == null)
+            {
+                Console.WriteLine("\nQueue is Empty");
+                return;
+            }
         }
     }
 }
