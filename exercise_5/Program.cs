@@ -79,7 +79,20 @@ namespace exercise_5
                     ch = Convert.ToChar(Console.ReadLine());
                     switch (ch)
                     {
-
+                        case '1':
+                            qe.Insert();
+                            break;
+                        case '2':
+                            qe.Delete();
+                            break;
+                        case '3':
+                            qe.Display();
+                            break;
+                        case '4':
+                            return;
+                        default:
+                            Console.WriteLine("Wrong Option");
+                            break;
                     }
 
                 }
