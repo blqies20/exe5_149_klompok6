@@ -96,6 +96,10 @@ namespace exercise_5
                     }
 
                 }
+                catch (Exception e)
+                {
+                    Console.WriteLine("\nCheck for the value enetred ");
+                }
             }
         }
     }
