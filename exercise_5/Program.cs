@@ -44,6 +44,10 @@ namespace exercise_5
                 Console.WriteLine("\nList is Empty");
                 return;
             }
+            balqis = balqis.next;
+            if (maharani== null)
+                maharani = null;
+            
         }
     }
 }
