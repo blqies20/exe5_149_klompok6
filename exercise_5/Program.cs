@@ -46,8 +46,12 @@ namespace exercise_5
             }
             balqis = balqis.next;
             if (maharani== null)
-                maharani = null;
-            
+                maharani = null;         
+        }
+        public void Display()
+        {
+            Console.WriteLine("\nQueue is Empty");
+            return;
         }
     }
 }
