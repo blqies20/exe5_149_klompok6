@@ -11,4 +11,14 @@ namespace exercise_5
         public string name;
         public Node next;
     }
+    class Queue
+    {
+        public Node balqis, maharani;
+
+        public Queue()
+        {
+            balqis = null;
+            maharani = null;
+        }
+    }
 }
