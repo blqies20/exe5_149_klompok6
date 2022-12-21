@@ -37,5 +37,13 @@ namespace exercise_5
             maharani.next = newnode;
             maharani = newnode;
         }
+        public void Delete()
+        {
+            if(maharani == null ) 
+            {
+                Console.WriteLine("\nList is Empty");
+                return;
+            }
+        }
     }
 }
